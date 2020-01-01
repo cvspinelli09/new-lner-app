@@ -1,5 +1,11 @@
 
+body {
+  font-family: 'Open Sans'; 
+}
 
+.App {
+  margin: 70px;
+}
 
 .title {
   display: flex;
