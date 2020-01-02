@@ -1,4 +1,4 @@
-const headcodeSheet = [
+const HEADCODE_DATA = [
     {
         id: 1,
         arrival: "5D01",
@@ -21,7 +21,6 @@ const headcodeSheet = [
         headcode: "1S04",
         to: "EDB",
         next: "1E21"
-
     },
     {
         id: 3,
@@ -59,9 +58,9 @@ const headcodeSheet = [
     },
     {
         id: 6,
-        arrival: 5N80,
-        powerType: Mk4,
-        time: 0609,
+        arrival: "5N80",
+        powerType: "Mk4",
+        time: "0609",
         departure: "07.06",
         by: "D3",
         headcode: "1N80",
@@ -277,4 +276,6 @@ const headcodeSheet = [
         to: "EDB",
         next: "1E22"
     }
-]
+] 
+
+export default HEADCODE_DATA;

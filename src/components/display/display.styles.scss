@@ -1,0 +1,40 @@
+.container {
+    margin: auto;
+    width: 70%;
+    // border: 1px solid black;
+    padding: 10px;
+}
+
+.title {
+    margin: auto;
+    width: 90%;
+    // border: 1px solid black;
+    padding: 10px;
+}
+
+.button-container {
+    // border: 1px solid green;
+    padding: 10px;
+}
+
+
+.button {
+    display: inline-block;
+    justify-content: center;
+    width: 200px;
+    padding: 12px;
+    margin-right: 2px;
+    margin-bottom: 20px;
+    position: relative;
+    color: white;
+    font-weight: bold;
+    background-color: #C9282D;
+    cursor: pointer;
+}
+
+.input {
+    padding: 10px;
+    width: 400px;
+    margin-top: 10px;
+    border: 1px solid black;
+}
