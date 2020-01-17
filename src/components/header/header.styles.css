@@ -1,0 +1,34 @@
+.header {
+  height: 120px;
+  width: 80%;
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin: auto;
+}
+
+.logo-container {
+  height: 100%;
+  width: 70px;
+  padding: 25px;
+  align-items: center;
+}
+
+.options {
+  width: 60%;
+  height: 100%;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+.option {
+  padding: 10px 15px;
+}
+
+.option {
+
+}

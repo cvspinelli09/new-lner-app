@@ -1,9 +1,8 @@
 import React from 'react';
 
-import './headcode.styles.scss';
+import './headcode.styles.css';
 
 import HEADCODE_DATA from "./headcode.data";
-import Header from "../../components/header/header.component";
 import DisplayItem from '../../components/display/display.component';
 
 class HeadcodePage extends React.Component {
@@ -27,7 +26,6 @@ class HeadcodePage extends React.Component {
   render() {
     return (
       <div className="headcode">
-        <Header />
         <DisplayItem />
       </div>
     );

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './display.styles.scss';
+import './display.styles.css';
 
 const DisplayItem = () => {
     return (
